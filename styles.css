@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
