@@ -74,6 +74,14 @@ header {
   font-weight: bold;
 }
 
+.hero-img-container {
+  font-size: 15px;
+}
+
+.hero-img-container a {
+  color: #E5E7EB;
+}
+
 .hero-img {
   width: 500px;
   height: 250px;
@@ -81,4 +89,35 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+
+.info {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+.image-subtext a {
+  color: #1F2937;
 }
