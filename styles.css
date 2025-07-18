@@ -139,3 +139,31 @@ header {
   font-size: 20px;
   margin-top: 20px;
 }
+
+.call-to-action {
+  background-color: #3882F6;
+  color: white;
+  padding: 20px;
+  margin: 100px;
+  border-radius: 8px;
+}
+
+.call-to-action-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action-banner p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.call-to-action-banner button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
