@@ -167,3 +167,10 @@ header {
   border-radius: 6px;
   font-weight: bold;
 }
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 35px 0;
+}
